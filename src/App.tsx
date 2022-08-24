@@ -1,6 +1,7 @@
 import "./App.css"
+import PostView from "./components/PostView"
 import usePosts from "./hooks/usePosts"
-import Post from "./models/post"
+
 
 export default function App() {
   const { isLoading, error, data: posts } = usePosts()
@@ -22,8 +23,4 @@ export default function App() {
   )
 }
 
-const PostView = (post: Post) => (
-  <div>
-    <div key={post.id}>{post.id}</div>
-  </div>
-)
+
