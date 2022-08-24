@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: #999;
+  font-style: italic;
+}
