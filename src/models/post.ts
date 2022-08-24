@@ -11,7 +11,7 @@ const postSchema = myzod.object({
   timestamp: myzod.number().map(value => new Date(value)),
 })
 
-type Post = Infer<typeof postSchema>
+interface Post extends Infer<typeof postSchema> {}
 
 export default Post
 

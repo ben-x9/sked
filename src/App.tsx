@@ -1,5 +1,6 @@
 import "./App.css"
 import usePosts from "./hooks/usePosts"
+import Post from "./models/post"
 
 export default function App() {
   const { isLoading, error, data: posts } = usePosts()
@@ -13,10 +14,16 @@ export default function App() {
       ) : (
         <div>
           {posts?.map(post => (
-            <div key={post.id}>{post.id}</div>
+            <PostView {...post} />
           ))}
         </div>
       )}
     </div>
   )
 }
+
+const PostView = (post: Post) => (
+  <div>
+    <div key={post.id}>{post.id}</div>
+  </div>
+)
