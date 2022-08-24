@@ -10,7 +10,7 @@ export default function PostView(post: Post) {
         {dayjs(post.timestamp).format("ddd D  MMM, h:mm A")}
       </div>
       <div>{post.accountName}</div>
-      <img src={post.imageUrl} />
+      <img src={post.imageUrl.slice(1)} />
       <div>{post.caption}</div>
     </li>
   )
