@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ig-1",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635510651638
+  },
+  {
+    "id": "ig-2",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635511651638
+  },
+  {
+    "id": "ig-3",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635512651638
+  },
+  {
+    "id": "ig-4",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635513651638
+  },
+  {
+    "id": "ig-5",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635514651638
+  },
+  {
+    "id": "ig-6",
+    "accountId": "IG",
+    "accountIcon": "/images/ig-icon.svg",
+    "accountName": "IG account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635515651638
+  },
+  {
+    "id": "fb-1",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635510051638
+  },
+  {
+    "id": "fb-2",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635511051638
+  },
+  {
+    "id": "fb-3",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635512051638
+  },
+  {
+    "id": "fb-4",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635513051638
+  },
+  {
+    "id": "fb-5",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635514051638
+  },
+  {
+    "id": "fb-6",
+    "accountId": "FB",
+    "accountIcon": "/images/fb-icon.svg",
+    "accountName": "FB account",
+    "accountImageInitial": "J",
+    "imageUrl": "/images/sked_social_logo.png",
+    "caption": "test",
+    "timestamp": 1635515051638
+  }
+]
