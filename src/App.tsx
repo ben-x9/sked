@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./App.css"
-import PostView from "./components/PostView"
+import Checkbox from "./components/Checkbox"
+import PostCard from "./components/PostCard"
 import usePosts from "./hooks/usePosts"
 
 export default function App() {
@@ -11,7 +12,7 @@ export default function App() {
       <div className="filter">
         <Checkbox
           label="Select All Accounts"
-          name="all"
+          id="all"
           checked={filter.IG && filter.FB}
           onChange={() =>
             setFilter(filter =>
@@ -23,13 +24,13 @@ export default function App() {
         />
         <Checkbox
           label="FB"
-          name="fb"
+          id="fb"
           checked={filter.FB}
           onChange={() => setFilter(filter => ({ ...filter, FB: !filter.FB }))}
         />
         <Checkbox
           label="IG"
-          name="ig"
+          id="ig"
           checked={filter.IG}
           onChange={() => setFilter(filter => ({ ...filter, IG: !filter.IG }))}
         />
@@ -39,31 +40,14 @@ export default function App() {
       ) : error ? (
         <div className="error">{error.message}</div>
       ) : (
-        <div className="posts">
+        <ul className="posts">
           {posts
             ?.filter(post => filter[post.accountId])
             .map(post => (
-              <PostView {...post} key={post.id} />
+              <PostCard {...post} key={post.id} />
             ))}
-        </div>
+        </ul>
       )}
     </div>
   )
 }
-
-const Checkbox = ({
-  name,
-  label,
-  onChange,
-  checked,
-}: {
-  name: string
-  label: string
-  onChange: () => void
-  checked: boolean
-}) => (
-  <div className="checkbox" onClick={onChange}>
-    <input type="checkbox" name={name} checked={checked} />
-    <label htmlFor={name}>{label}</label>
-  </div>
-)

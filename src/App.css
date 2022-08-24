@@ -14,12 +14,14 @@
   font-style: italic;
 }
 
-.posts {
+ul.posts {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .filter {
@@ -28,12 +30,4 @@
   align-items: flex-start;
   margin-bottom: 20px;
   padding: 5px;
-}
-
-.checkbox {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
